@@ -9,7 +9,8 @@ class Playground
 {
     public function __construct(Geolocation $geolocation)
     {
-        $result = GeolocationFacade::search('a');
+        $result = GeolocationFacade::find();  // resolving a service instance using facade
+        // $result = $geolocation->find();  // resolving a service instance using dependency injection
         dump($result);
         // $geolocation = app(Geolocation::class);
     }

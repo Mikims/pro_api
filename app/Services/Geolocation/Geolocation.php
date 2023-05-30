@@ -32,4 +32,9 @@ class Geolocation
         return $coodinates;
     }
 
+    public function find()
+    {
+        dump("found");
+    }
+
 }

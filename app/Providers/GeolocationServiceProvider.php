@@ -22,6 +22,7 @@ class GeolocationServiceProvider extends ServiceProvider
         });
     }
 
+
     /**
      * Bootstrap services.
      */
